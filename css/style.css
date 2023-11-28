@@ -55,13 +55,20 @@
        border-radius:7px;
        background:transparent;
        color:white;
-       padding:5px;
+       padding:20px;
 
 }
 
 .text{
-    height:20%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 30%;
+    font-size:2rem;
+    font-weight:600;
+
 }
+
 
 #wrapper a{
     text-decoration : none;
@@ -77,11 +84,33 @@
     border:1px solid white;
     background:transparent;
     margin-left:25px;
+    padding:5px;
 }
+ #wrapper p, a{
+    font-size:0.9rem;
+ }
 #btn{
-    width:240px;
-    height:32px;
+    width: 240px;
+    height: 38px;
+    margin: 12px 0;
+    border-radius: 25px;
+    margin-left:25px;
 }
+
+.remember-me{
+    display:flex;
+    margin-left:25px;
+}
+.remember-me a {
+    margin-left: 38px;
+}
+.sign-up{
+    display:flex;
+    margin-left:50px;
+}
+.sign-up a{
+     font-weight:600;
+} 
 /* Utility classes */
 
  .center{
