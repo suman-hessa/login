@@ -58,14 +58,14 @@ font-family: 'Hedvig Letters Sans', sans-serif;
        background:transparent;
        color:white;
        padding:20px;
-
+       
 }
 
 .text{
     display:flex;
     justify-content:center;
     align-items:center;
-    height: 25%;
+    height: 30%;
     font-size:2rem;
     font-weight:600;
 
@@ -90,6 +90,7 @@ font-family: 'Hedvig Letters Sans', sans-serif;
     background:transparent;
     margin-left:16px;
     padding:5px;
+   
 }
  #wrapper p, a{
     font-size:0.9rem;
@@ -100,6 +101,7 @@ font-family: 'Hedvig Letters Sans', sans-serif;
     margin: 12px 0;
     border-radius: 25px;
     margin-left:25px;
+     cursor:pointer;
 }
 
 .remember-me{
